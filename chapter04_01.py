@@ -78,7 +78,7 @@ print(not True)
 print(not False)
 
 # 산술, 관계, 논리 우선순위
-# 산순 > 관계 > 논리
+# 산술 > 관계 > 논리
 print('e1 : ', 3+12 > 7+3)
 print('e2 : ', 5 + 10 * 3 > 7 + 3 * 20)
 print('e3 : ', 5 + 10 > 3 and 7 + 3 == 10)

@@ -84,6 +84,7 @@ name = ['Kim', 'Lee', 'Park']
 # print()
 
 # 예제2
+# 모든 예외의 에러
 # try:
 #     z = 'Kim' # 'Cho'
 #     x = name.index(z)
@@ -96,6 +97,7 @@ name = ['Kim', 'Lee', 'Park']
 # print()
 
 # 예제3
+# 모든 에러의 예외처리를 alias e로 한다.
 # try:
 #     z = 'Cho' # 'Cho'
 #     x = name.index(z)
@@ -113,7 +115,6 @@ name = ['Kim', 'Lee', 'Park']
 # 예제4
 # 예외 발생 : raise
 # raise 키워드로 예외 직접 발생
-
 try:
     a = 'Park'
     if a == 'Kim':
@@ -124,4 +125,3 @@ except ValueError:
     print('Occured! Exception!')
 else:
     print('Ok! else!')
-    

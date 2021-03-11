@@ -14,6 +14,7 @@ d = {
     'Grade': 'A',
     'Status': True
 }
+# 아래 방법은 정석이라고 불린다.
 e = dict([
     ('Name', 'Niceman'),
     ('City', 'Seoul'),
@@ -43,13 +44,13 @@ print('a - ', a['name']) # 존재x - 에러발생
 print('a - ', a.get('name')) # 존재x -> None 처리
 print('b - ', b[0])
 print('b - ', b.get(0))
-print('f - ', f.get('City'))
+print('f - ', f.get('City')) # 해당 key에 해당하는 value를 가져온다.
 print('f - ', f.get('Age'))
 
 # 딕셔너리 추가
 a['address'] = 'seoul'
 print('a - ', a)
-a['rank'] = [1, 2, 3]
+a['rank'] = [1, 2, 3] # 없으면 추가 된다.
 print('a - ', a)
 
 # 딕셔너리 길이
@@ -65,6 +66,7 @@ print('b - ', b.keys())
 print('c - ', c.keys())
 print('d - ', d.keys())
 
+# list로 형변환
 print('a - ', list(a.keys()))
 print('b - ', list(b.keys()))
 

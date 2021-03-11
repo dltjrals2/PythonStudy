@@ -52,6 +52,7 @@ print(t_s2)
 print()
 
 # Raw String 출력
+# 뒤에 백슬래쉬를 무시할 수 있다.
 raw_s1 = r'D:\python\test'
 print(raw_s1)
 print()
@@ -86,11 +87,11 @@ print(str(True), type(str(True)))
 
 # 문자열 함수(upper, isalnum, startswith, count, endswith, isalpha...)
 
-print("Capitalize: ", str_o1.capitalize())
-print("endswith: ", str_o2.endswith("!"))
-print("replace", str_o1.replace("thon", " Good"))
-print("sorted: ", sorted(str_o1))
-print("split: ", str_o4.split(' '))
+print("Capitalize: ", str_o1.capitalize()) # 맨 앞글자만 대문자 나머지 소문자
+print("endswith: ", str_o2.endswith("!")) # 해당 인자로 끝나는지 검색한다.
+print("replace", str_o1.replace("thon", " Good")) # 앞인자를 뒤인자로 바꿔준다.
+print("sorted: ", sorted(str_o1)) # 오름차순정렬
+print("split: ", str_o4.split(' ')) # 문자열 쪼개기
 
 
 # 반복(시퀀스)

@@ -78,4 +78,4 @@ print(type([]))
 
 # zip : 반복가능한 객체(Iterable)의 요소를 묶어서 반환
 print(list(zip([10, 20, 30], [40, 50, 777])))
-print(type(list(zip([10, 20, 30], [40, 50, 777]))[0]))
+print(type(list(zip([10, 20, 30], [40, 50, 777]))))

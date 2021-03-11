@@ -65,7 +65,7 @@ print(type(d), d, d.get('v2'), d.items(), d.keys())
 # 중요
 # *args, **kwargs
 
-# *args(언팩킹)
+# *args(언팩킹) #복수개의 인자를 받고자 할 때 사용
 def args_func(*args): #매개변수 명 자유
     for i, v in enumerate(args):
         print('Result : {}'.format(i), v)
@@ -76,6 +76,7 @@ args_func('Lee', 'Park')
 args_func('Lee', 'Park', 'Kim')
 
 # **kwargs(언팩킹)
+# keyword = value 형태로 함수 호출 가능
 def kwargs_func(**kwargs): # 매개변수 명 자유
     for v in kwargs.keys():
         print("{}".format(v), kwargs[v])

@@ -56,6 +56,7 @@ c[1:3] = []
 print('c - ', c)
 del c[2]
 print('c - ', c)
+print()
 
 
 # 리스트 함수
@@ -74,6 +75,8 @@ a.reverse()
 print('a - ', a)
 # del a[6]
 a.remove(10)
+print()
+
 print('a - ', a)
 print('a - ', a.pop())
 print('a - ', a)

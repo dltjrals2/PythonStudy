@@ -27,6 +27,7 @@ def power(x, y):
 # print('-' * 15)
 
 # __name__ 사용
+# 모듈이 import가 아닌 자기 자신에서 돌렸을때만 돌아간다.
 if __name__ == "__main__":
     print('-' * 15)
     print('Called! inner!')
